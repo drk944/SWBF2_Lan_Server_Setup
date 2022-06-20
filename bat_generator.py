@@ -50,7 +50,7 @@ bat = [None] * 18
 c = config['SESSION1']
 cl_basic = '/win /nosound /autonet dedicated /resolution 640 480'
 
-exec = c['APP_FILENAME'] + ' ' + cl_basic + ' /gamename ' + c['SESSION_NAME'] + ' /tps ' + tps + ' /playerlimit ' + c['MAX_PLAYERS'] \
+exec = c['APP_FILENAME'] + ' ' + cl_basic + ' /gamename ' + c['SESSION_NAME'] + ' /tps ' + str(tps) + ' /playerlimit ' + c['MAX_PLAYERS'] \
     + ' /playercount ' + c['START_PLAYERS'] + ' /bots ' + c['AI_UNITS'] + '/sideselect' + ' /difficulty ' + str(int(c['AI_DIFFICULTY'])+1) \
     + ' /heroes ' + c['HEROES'] + ' /hrunlock ' + c['HERO_UNLOCK_RULE'] + ' /hrplayer ' + c['HERO_ASSIGN_RULE'] \
     + ' /hrteam ' + c['HERO_UNLOCK_TEAM'] + ' /hrrespawn 2' + ' /hrrespawnvalue ' + c['HERO_RESPAWN_TIMER'] \
