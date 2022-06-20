@@ -73,3 +73,5 @@ filename += '.bat'
 filename = "../" + filename
 with open(filename, 'w') as f:
     f.write(exec)
+
+print("Done")
