@@ -23,4 +23,6 @@ Units: The argument -u for units is a blanket statement and each game in the que
 
 hrrespawn: I couldn't deduce what this setting does nor how it's changed. Currently hard coded to 2
 
+throttle (hosting Bandwith): Changing value not implemented, defaulted to largest value 6M (6144 bits)
+
 Default directory: Implementation is setup that the bat file is saved in the above directory, flags can be added to change that.
