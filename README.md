@@ -1,11 +1,11 @@
 # SWBF2_Lan_Server_Setup
-Simple script to change options flags for running Star Wars Battlefront 2 Lan server as a .bat
+Simple script to modify options flags for running Star Wars Battlefront 2 LAN server as an executable via a .bat script
 
-Simple script to generate a Bat file from the options selected using the Star Wars Battlefront II Dedicated Service Management
+Bat generator creates a Bat file from the options selected using the Star Wars Battlefront II Dedicated Service Management
 The Dedicated server exe is 'DSManager.exe'. MFC71.dll and msvcr71.dll are needed for the executable
 
 # Instructions:
-1. Choose settings using the server manager, click 'START' to generate the settings file (DSManager.ini)
+1. Choose settings using the server manager (DSManager.exe), click 'START' to generate the settings file (DSManager.ini)
 2. Run this script. It will generate a new .bat file with those settings in the parent directory
 3. Launch the bat file from the same directory as the game* and a simple server version of the game will pop up
 4. To play, launch a new instance** of the game and join from there.
