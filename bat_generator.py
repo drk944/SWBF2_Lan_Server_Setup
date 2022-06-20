@@ -65,5 +65,6 @@ for i in maps:
 exec += map_string
 
 filename += '.bat'
+filename = "../" + filename
 with open(filename, 'w') as f:
     f.write(exec)
