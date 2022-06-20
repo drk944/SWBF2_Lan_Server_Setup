@@ -6,12 +6,16 @@ The Dedicated server exe is 'DSManager.exe'. MFC71.dll and msvcr71.dll are neede
 
 # Instructions:
 1. Choose settings using the server manager, click 'START' to generate the settings file (DSManager.ini)
-2. Run this script. It will generate a new .bat file with those settings in the current directory
-3. Run the bat file and a simple server version of the game will pop up, you can then launch a new instance
-of the game and join from there.
-
+2. Run this script. It will generate a new .bat file with those settings in the parent directory
+3. Launch the bat file from the same directory as the game* and a simple server version of the game will pop up
+4. To play, launch a new instance** of the game and join from there.
+    
 *Note: The bat file needs to be in the same directory as the cracked SWBF2. I've tested it, it doesn't
- work with the original CD version, nor the official Steam or GOG games, it needs to be the cracked one.
+    work with the original CD version, nor the official Steam or GOG games, it needs to be the cracked one.
+
+**Note: If you are launching the cracked version, create a copy in another directory and launch from there
+    If not, after the game is over and you want to launch a new game, you'd need to exit out of the cracked version
+    To reiterate, launch a Steam or GOG version, or a cracked version from a different directory to play
 
 # Known issues/ Needed features
 Units: The argument -u for units is a blanket statement and each game in the queue will have the
@@ -19,4 +23,4 @@ Units: The argument -u for units is a blanket statement and each game in the que
 
 hrrespawn: I couldn't deduce what this setting does nor how it's changed. Currently hard coded to 2
 
-Default directory: Implementation is needed to move the bat file to a different directory.
+Default directory: Implementation is setup that the bat file is saved in the above directory, flags can be added to change that.
